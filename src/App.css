@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+.container{
+
+    display: flex;
+   
+   
+
+}
+
+.item{
+    width: 250px;
+    background: #FFF;
+    padding:10px;
+    margin: 10px;
+    border-radius:8px;
+    
+   
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    outline:0;
+    box-sizing:border-box;
+}
+
+body{
+    font:400 14px Roboto ,sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing:antialiased;
+}
+
+
+p{
+    margin-top:10px;
+  
+}
+h4{
+    color: #F22;
+}
+
+.headerText{
+    margin-left: 280px;
+    margin-top: 15px;
+}
+
+.paises{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+   
+}
+
+.headerTop{
+    display: flex;
+    max-width: 1100px;
+    
+    justify-content: space-between;
+    
+}
+
+.topdados{
+    display: flex;
+    background-color: #FFF;
+    border-radius:8px;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.textoTop{
+    margin:15px;
+    font-size: 20px;
+}
+.flxtop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerNoticia{
+    
+   flex-wrap: wrap;
+    max-width: 270px;
+}
+.noticias{
+   
+    width: 400px;
+    height: 300px;
+    background: #FFF;
+    padding:10px;
+    margin: 10px;
+    border-radius:8px;
+    
+    position: relative;
+    
+}
+
+
+
+
+
+
+.fonte{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: bold;
+    margin-top:20px;
+    margin-left:15px;
+
+    font-size: 20px;
+
+}
+
+.data{
+margin: 15px;
+bottom: 0px;
+position: absolute;
+font-weight:100;
+
+}
+.titleNoticia{
+    color:red;
+    font-size: large;
+    margin-top:10px;
+}
